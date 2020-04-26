@@ -6,5 +6,12 @@ open dwl.sh and check for DEST to be ok with you or adjust it. Then run like the
 Done.
 
 # License
-This code is under AGPL. Because why not? And people agreed it would be a good idea: https://toot.kif.rocks/@uniporn/104066484933751796
+This code is under AGPL, because why not? And people agreed it would be a good idea: https://toot.kif.rocks/@uniporn/104066484933751796
 Now live with it :D
+
+# Thoughts and Prayers
+currently the script downloads all formats of the books, pdfs and epubs alike. 
+However I am open for submission of patches to fix that, or any other issue you find.
+If there is some feature you'd like to discuss first or there is any question - just raise issues, poke me with mail, whatever - I will most likely tell you what I think about it ;)
+And my best wishes for your health.
+
