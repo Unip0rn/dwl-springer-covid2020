@@ -4,6 +4,7 @@ This is the link: https://link.springer.com/search/page/21?facet-content-type=%2
 # Usage
 open dwl.sh and check for DEST to be ok with you or adjust it. Then run like the following: ```sh dwl.sh```
 Done.
+You should expect about 9GB to be downloaded. Make sure there is enough free space on disc.
 
 # License
 This code is under AGPL, because why not? And people agreed it would be a good idea: https://toot.kif.rocks/@uniporn/104066484933751796
