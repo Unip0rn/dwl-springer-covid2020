@@ -19,7 +19,7 @@
 # according to https://insanity.industries/post/safeshell/
 set -e
 set -u
-set -o pipefail
+set +o pipefail
 set -E
 export SHELLOPTS
 
