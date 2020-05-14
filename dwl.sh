@@ -19,7 +19,6 @@
 # according to https://insanity.industries/post/safeshell/
 set -e
 set -u
-set -o pipefail
 set -E
 export SHELLOPTS
 
@@ -50,8 +49,8 @@ done < books.txt
 while IFS= read -r line
 do
     filename=$(basename $line)
-    curl -o "$filename" "${URL_BASE}${line}"
-
+#    curl -o "$filename" "${URL_BASE}${line}"
+    echo $line
 done < dwl.txt
 
 rm books.txt dwl.txt
